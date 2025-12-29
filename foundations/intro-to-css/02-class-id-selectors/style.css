@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+.warm {
+    background-color: #ff7c7c;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+#cool {
+    color: #7cd1ff;
+    font-size: 36px;
+}
+.medium-size {
+    font-size: 24px;
+}
+#unique {
+    font-weight: bold;
+    background-color: #90ee90;
+    font-size: 24px;
+}
