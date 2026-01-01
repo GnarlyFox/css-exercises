@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckMyJS</title>
+</head>
+<body>
+    <button>Click Me</button>
+    <script>
+        let word1 = "Hello ";
+        let word2 = "world";
+        word2 = "world!";
+        console.log(word1 + word2);
+
+        function createParagraph() {
+        const para = document.createElement("p");
+        para.textContent = "You clicked the button!";
+        document.body.appendChild(para);
+        }
+        const buttons = document.querySelectorAll("button")        
+        for (const button of buttons) {
+        button.addEventListener("click", createParagraph);
+        }
+    </script>
+</body>
+</html>
